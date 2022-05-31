@@ -150,7 +150,7 @@ nav ul li {
 /* INICIO FOOTER */
 
 footer {
-  background-color: rgb(180, 180, 180);
+  background: radial-gradient(circle, #d8d7e0 0%, rgb(180, 180, 180) 80%);
   margin: 1%;
   padding: 1%;
 }
@@ -181,14 +181,24 @@ footer {
 
 .funcionesfooter ul li {
   text-decoration: none;
-  background-color: #3498db;
+  background-color: #1a8ebc;
   color: aliceblue;
   text-transform: uppercase;
 }
 
 .funcionesfooter ul li a {
   text-decoration: none;
+  text-transform: uppercase;
   color: aliceblue;
+  border-radius: 1rem;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+  border-color: #1a8ebc;
+}
+
+.funcionesfooter ul li a:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  color: black;
 }
 
 .mapfooter {
